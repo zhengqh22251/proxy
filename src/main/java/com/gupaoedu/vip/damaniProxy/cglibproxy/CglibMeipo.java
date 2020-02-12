@@ -13,7 +13,7 @@ import java.net.ServerSocket;
  * @date 2020/2/9 16:19
  **/
 public class CglibMeipo implements MethodInterceptor {
-
+  // zqh
     public  Object getInstance(Class<?> clazz){
         Enhancer enhancer =new Enhancer();
         enhancer.setSuperclass(clazz);
