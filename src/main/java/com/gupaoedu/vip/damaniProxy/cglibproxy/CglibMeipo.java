@@ -5,6 +5,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
+
 import java.net.ServerSocket;
 
 /**
@@ -12,7 +13,6 @@ import java.net.ServerSocket;
  * @date 2020/2/9 16:19
  **/
 public class CglibMeipo implements MethodInterceptor {
-
 
     public  Object getInstance(Class<?> clazz){
         Enhancer enhancer =new Enhancer();
